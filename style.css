@@ -1,0 +1,24 @@
+/* Custom UI Base Fixes */
+iframe {
+    border: none;
+    background-color: #000000;
+}
+
+/* Custom Webkit scrollbars for dark mode premium aesthetic styling */
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #0a0a0a;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #262626;
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #dc2626;
+}
